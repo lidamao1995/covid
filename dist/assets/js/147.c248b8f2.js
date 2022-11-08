@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcovid_19"]=self["webpackChunkcovid_19"]||[]).push([[147],{81147:function(n,t,u){u.r(t),u.d(t,{default:function(){return a}});var r=function(){var n=this,t=n._self._c;return t("div",{staticClass:"main"},[t("ul",n._l(n.countries,(function(u){return t("li",[n._v(" "+n._s(u.c)+" ")])})),0)])},s=[],c={props:["countries"],data(){return{}}},e=c,i=u(1001),l=(0,i.Z)(e,r,s,!1,null,"dd165fb8",null),a=l.exports}}]);
+//# sourceMappingURL=147.c248b8f2.js.map

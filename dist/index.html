@@ -1,40 +1,14 @@
-<!doctype html>
-<html lang="">
+<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1"><link rel="icon" href="favicon.ico"><title>covid-19</title><style>body{background-color: #f8f8f8;}</style><script defer="defer" src="assets/js/chunk-vendors.f777b57d.js"></script><script defer="defer" src="assets/js/app.6223ed38.js"></script><link href="assets/css/chunk-vendors.4186f9c5.css" rel="stylesheet"><link href="assets/css/app.223f40f1.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but covid-19 doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body><script>//document.compatMode用来判断当前浏览器采用的渲染方式。
+// BackCompat：标准兼容模式关闭。
+// CSS1Compat：标准兼容模式开启。（文档指定了 DOCTYPE）
+// 当document.compatMode等于BackCompat时，浏览器客户区宽度是document.body.clientWidth；
+// 当document.compatMode等于CSS1Compat时，浏览器客户区宽度是document.documentElement.clientWidth。
+let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+let htmlDom = document.getElementsByTagName('html')[0];
+htmlDom.style.fontSize = htmlWidth / 10 + 'px';
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1">
-    <link rel="icon" href="/favicon.ico">
-    <title>covid-19</title>
-    <style>
-        body {
-            background-color: #f8f8f8;
-        }
-    </style>
-    <script defer="defer" src="/dist/js/chunk-vendors.f777b57d.js"></script>
-    <script defer="defer" src="/dist/js/app.7af5f3de.js"></script>
-    <link href="/dist/css/chunk-vendors.4186f9c5.css" rel="stylesheet">
-    <link href="/dist/css/app.bd200e8f.css" rel="stylesheet">
-</head>
-
-<body><noscript><strong>We're sorry but covid-19 doesn't work properly without JavaScript enabled. Please enable it to
-            continue.</strong></noscript>
-    <div id="app"></div>
-</body>
-<script>//document.compatMode用来判断当前浏览器采用的渲染方式。
-    // BackCompat：标准兼容模式关闭。
-    // CSS1Compat：标准兼容模式开启。（文档指定了 DOCTYPE）
-    // 当document.compatMode等于BackCompat时，浏览器客户区宽度是document.body.clientWidth；
-    // 当document.compatMode等于CSS1Compat时，浏览器客户区宽度是document.documentElement.clientWidth。
+//页面尺寸发生变化时重设根节点字体大小
+window.addEventListener('resize', (e) => {
     let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
-    let htmlDom = document.getElementsByTagName('html')[0];
     htmlDom.style.fontSize = htmlWidth / 10 + 'px';
-
-    //页面尺寸发生变化时重设根节点字体大小
-    window.addEventListener('resize', (e) => {
-        let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
-        htmlDom.style.fontSize = htmlWidth / 10 + 'px';
-    });</script>
-
-</html>
+ });</script></html>
