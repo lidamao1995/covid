@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcovid_19"]=self["webpackChunkcovid_19"]||[]).push([[917],{70917:function(e,n,t){t.r(n),t.d(n,{default:function(){return l}});var u=function(){var e=this,n=e._self._c;return n("div")},r=[],c={data(){return{}},created(){},mounted(){}},a=c,d=t(1001),i=(0,d.Z)(a,u,r,!1,null,"34073b75",null),l=i.exports}}]);
+//# sourceMappingURL=917.c6e0c7ad.js.map

@@ -1,0 +1,137 @@
+{
+  "result": {
+  "status": {
+  "code": 0,
+  "msg": "succ"
+  },
+  "timestamp": "Wed Oct 26 00:50:22 +0800 2022",
+  "population": [
+  {
+  "name": "奥地利",
+  "value": 611351.35,
+  "certain": "5408648",
+  "citycode": "SCAT0043"
+  },
+  {
+  "name": "斯洛文尼亚",
+  "value": 594095.79,
+  "certain": "1228217",
+  "citycode": "SCSI0386"
+  },
+  {
+  "name": "法国",
+  "value": 546473.12,
+  "certain": "36606728",
+  "citycode": "SCFR0033"
+  },
+  {
+  "name": "丹麦",
+  "value": 540561.31,
+  "certain": "3133875",
+  "citycode": "SCDK0045"
+  },
+  {
+  "name": "葡萄牙",
+  "value": 536587.11,
+  "certain": "5517061",
+  "citycode": "SCPT0351"
+  },
+  {
+  "name": "以色列",
+  "value": 526659.43,
+  "certain": "4678737",
+  "citycode": "SCIL0972"
+  },
+  {
+  "name": "塞浦路斯",
+  "value": 501399.6,
+  "certain": "596297",
+  "citycode": "SCCY0357"
+  },
+  {
+  "name": "瑞士",
+  "value": 494500.88,
+  "certain": "4211438",
+  "citycode": "SCCH0041"
+  },
+  {
+  "name": "荷兰",
+  "value": 493605.28,
+  "certain": "8505321",
+  "citycode": "SCNL0031"
+  },
+  {
+  "name": "拉脱维亚",
+  "value": 492723.23,
+  "certain": "949252",
+  "citycode": "SCLV0371"
+  }
+  ],
+  "ucarea": [
+  {
+  "name": "蒙古国",
+  "value": 7347.36,
+  "certain": "984253",
+  "citycode": "SCMN0976"
+  },
+  {
+  "name": "韩国",
+  "value": 7223.33,
+  "certain": "25355350",
+  "citycode": "SCKR0082"
+  },
+  {
+  "name": "新加坡",
+  "value": 7196.82,
+  "certain": "2067790",
+  "citycode": "SCSG0065"
+  },
+  {
+  "name": "巴勒斯坦",
+  "value": 6207.94,
+  "certain": "620794",
+  "citycode": "SCPS0970"
+  },
+  {
+  "name": "拉脱维亚",
+  "value": 4625.08,
+  "certain": "949252",
+  "citycode": "SCLV0371"
+  },
+  {
+  "name": "巴林",
+  "value": 4621.47,
+  "certain": "688044",
+  "citycode": "SCBH0973"
+  },
+  {
+  "name": "以色列",
+  "value": 4182.6,
+  "certain": "4678737",
+  "citycode": "SCIL0972"
+  },
+  {
+  "name": "立陶宛",
+  "value": 3446.45,
+  "certain": "1265985",
+  "citycode": "SCLT0370"
+  },
+  {
+  "name": "巴拿马",
+  "value": 3401.1,
+  "certain": "989005",
+  "citycode": "SCPA0507"
+  },
+  {
+  "name": "阿联酋",
+  "value": 3045.74,
+  "certain": "1035430",
+  "citycode": "SCAE0971"
+  }
+  ],
+  "countpopulation": 10,
+  "countucarea": 10,
+  "data": []
+  }
+  }
+  
